@@ -2,12 +2,16 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0px;
 }
-nav {
+#containerf {
     display:flex;
-    height: 20px;  
     justify-content:space-between;
     align-items:flex-end;
 
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .need{
     width: 100%;
@@ -110,10 +114,13 @@ ul {
 #slogan {
     color:#03B49C;
     font-size: larger;
+    display: flex;
+    align-content: center;
 }
 
 #go {
     background-color: white;
+    margin-top:15px;
 }
 
 #poupou {
@@ -137,12 +144,14 @@ ul {
 }
 
 #clock {
-    justify-content:center;
+    width: 150px;
     padding: 15px;
+    width: 175px;
 }
 .flg {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    margin-top: 0px;
 }
 
 .country {
@@ -161,8 +170,7 @@ ul {
     border-top-left-radius:15px ;
     border-top-right-radius:10px ;
     max-width: 500px;
-    grid-template-columns: 1/1;
-    grid-template-rows: 1/1;
+
 }
 #war
 #texte {
@@ -178,4 +186,51 @@ ul {
     background-color: #3d83df;
     border: none;
     border-radius: 10px;
+}
+.children {
+display: flex;
+align-items: flex-end;
+}
+footer{
+    padding: 15px;
+    margin-top: 1450px
+}
+h2 {text-align-last: center;}
+#flgtext {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#h1 {
+    display: flex;
+    text-align:center;
+    justify-content:center;
+}
+#footer_btn {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+#btnn {
+    background-color: #1662C6;
+    border: 0px;
+    border-radius: 2px;
+    color: white;
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    margin-bottom:25px;
+}
+
+#footertxt {
+    font-weight:bolder;
+    margin-left: 0px;
+    padding: 0px;
+    border-top: solid 1px black;
+    align-content: center;
+}
+#flgtexte {
+    display: flex;
+    text-align: center;
 }
